@@ -89,9 +89,7 @@ can accompany several other datasets from a wide range of fields, both medical a
 We uploaded the entire Kvasir polyp class to Labelbox and created all the segmentations using this application. 
 
 The Labelbox is a tool used for labeling the region of interest (ROI) in image frames, i.e., the polyp regions for our case. 
-We manually annotated and labeled all of the 1000 images with the help of medical experts. After annotation, we exported the files 
-
-to generate masks for each annotation. The exported JSON file contained all the information about the image and the coordinate 
+We manually annotated and labeled all of the 1000 images with the help of medical experts. After annotation, we exported the files to generate masks for each annotation. The exported JSON file contained all the information about the image and the coordinate 
 points for generating the mask. To create a mask, we used ROI coordinates to draw contours on an empty black image and fill the 
 contours with white color. The generated masks are a 1-bit color depth images. The pixels depicting polyp tissue, the region of 
 interest, are represented by the foreground (white mask), while the background (in black) does not contain positive pixels. 
