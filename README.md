@@ -1,6 +1,6 @@
 <h2>Tensorflow-Image-Segmentation-Gastrointestinal-Polyp (2024/11/06)</h2>
 
-This is the second experiment of Image Segmentation for Brain Tumor
+This is the second experiment of Image Segmentation for Gastrointestinal-Polyp
  based on 
 the latest <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, and
 <a href="https://drive.google.com/file/d/1T2Ue66UY_UYnNncsdsAR2soZfyocO4w1/view?usp=sharing">
